@@ -16,8 +16,7 @@ automating
 total_vendas  =  automating [ 'Valor Final' ].sum() 
 quant_produtos  =  automatizando [ 'Quantidade' ].sum()
 
-# Começamos aqui a nossa automação utilização algumas funções do 'pyautogui', 'pyperclip' e 'time'. 
-    pyperclip e time. 
+# Começamos aqui a nossa automação utilização algumas funções do 'pyautogui', 'pyperclip' e 'time'.  
 
 py.hotkey( 'Ctrl' ,  't' ) 
 link  =  'https://web.telegram.org/k/' 
