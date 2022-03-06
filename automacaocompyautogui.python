@@ -1,22 +1,23 @@
 # AVISO IMPORTANTE TRADUZA A PAGINA PARA INGLÊS.
-# 'Importando as Bibliotecas.'
+# Importando as Bibliotecas.
 
 import  pandas  as  pd 
 import  pyautogui  as  py 
 import  time  
 import  pyperclip
 
-# 'Carregando a base de dados' 
+# Carregando base de dados
 
 automating  =  pd . read_excel (r 'Vendasd.xlsx ' ) 
 automating
 
-# 'Fazendo a soma da venda do mes e a quantidade de produtos vendidos.'
+# Fazendo a soma da venda do mes e 'a' quantidade de produtos vendidos.'
 
 total_vendas  =  automating [ 'Valor Final' ].sum() 
 quant_produtos  =  automatizando [ 'Quantidade' ].sum()
 
-#  'Começamos aqui a nossa automação utilização algumas funções do pyautogui, pyperclip e time.' 
+# Começamos aqui a nossa automação utilização algumas funções do 'pyautogui', 'pyperclip' e 'time'. 
+    pyperclip e time. 
 
 py.hotkey( 'Ctrl' ,  't' ) 
 link  =  'https://web.telegram.org/k/' 
@@ -45,6 +46,6 @@ py.hotkey( 'ctrl' ,  'v' )
 py.press( 'entrar' )
 time.sleep( 5 )
 
-' Aqui e so usar esses comandos separadamente para utilizar o py.click e saber  as coordenadas da tela e onde o mouse devera clicar.'
+# usar esses comandos para saber as coordenadas da tela.
 time.sleep(5)
 py.position()
