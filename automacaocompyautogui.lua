@@ -5,13 +5,13 @@ import  pyautogui  as  py
 import  time  
 import  pyperclip
 
--- carregando a base de dados 
+-- Carregando a base de dados 
 automating  =  pd . read_excel (r 'caminho de ontem esta o arquivo ' ) 
 automating 
--- fazendo a soma da venda do mes ea quantidade de produtos vendidos.
+-- Fazendo a soma da venda do mes e a quantidade de produtos vendidos.
 total_vendas  =  automating [ 'Valor Final' ].sum() 
 quant_produtos  =  automatizando [ 'Quantidade' ].sum()
---  começamos aqui a nossa automação utilização algumas funções do pyautogui, pyperclip e time. 
+--  Começamos aqui a nossa automação utilização algumas funções do pyautogui, pyperclip e time. 
 py.hotkey( 'Ctrl' ,  't' ) 
 link  =  'https://web.telegram.org/k/' 
 pyperclip.copy( link ) 
@@ -39,6 +39,6 @@ py.hotkey( 'ctrl' ,  'v' )
 py.press( 'entrar' )
 time.sleep( 5 )
 
--- aqui e so usar essas funçoes separamente para utilizar o py.click e saber as coordenadas mouse devera clicar.
+-- Aqui e so usar essas funçoes separadamente para utilizar o py.click e saber onde as coordenadas mouse devera clicar.
 time.sleep(5)
 py.position()
