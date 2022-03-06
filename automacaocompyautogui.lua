@@ -6,7 +6,7 @@ import  time
 import  pyperclip
 
 -- Carregando a base de dados 
-automating  =  pd . read_excel (r 'caminho de ontem esta o arquivo ' ) 
+automating  =  pd . read_excel (r 'Vendasd.xlsx ' ) 
 automating 
 -- Fazendo a soma da venda do mes e a quantidade de produtos vendidos.
 total_vendas  =  automating [ 'Valor Final' ].sum() 
