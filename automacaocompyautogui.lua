@@ -1,3 +1,4 @@
+-- AVISO IMPORTANTE TRADUZA A PAGINA PARA INGLÊS.
 -- Importando as Bibliotecas.
 import  pandas  as  pd 
 import  pyautogui  as  py 
