@@ -8,8 +8,8 @@ PYPERCLIP: o pyautogui tem comandos para copiar e colar mas dá erro porque ele 
 
 TIME: para dozar a velocidade do computador e não pular etapas usaremos essa biblioteca para dar um intervalo antes de ir para o próximo comando.
 
-PYAUTOGUI: essa e a biblioteca para fazer a automacao ela consegue controlar o mouse e o teclado,
-então com comandos ela flutua pelo computador e consegue realizar a automação.
+PYAUTOGUI: consegue controlar o mouse e o teclado,
+então com comandos ela flutua pelo computador e consegue realiza a automação.
 
 Este foi meu primeiro projeto no GitHub espero que tenha ajudado de alguma forma.
 
