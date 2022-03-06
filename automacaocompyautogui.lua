@@ -1,0 +1,43 @@
+-- Importando as Bibliotecas.
+import  pandas  as  pd 
+import  pyautogui  as  py 
+import  time  
+import  pyperclip
+
+-- carregando a base de dados 
+automating  =  pd . read_excel (r 'caminho de ontem esta o arquivo ' ) 
+automating 
+-- fazendo a soma da venda do mes ea quantidade de produtos vendidos.
+total_vendas  =  automating [ 'Valor Final' ].sum() 
+quant_produtos  =  automatizando [ 'Quantidade' ].sum()
+--  começamos aqui a nossa automação utilização algumas funções do pyautogui, pyperclip e time. 
+py.hotkey( 'Ctrl' ,  't' ) 
+link  =  'https://web.telegram.org/k/' 
+pyperclip.copy( link ) 
+py.hotkey('ctrl', 'v') 
+py.press( 'enter' ) 
+time.sleep( 5 ) 
+py.click(295 , 125 )
+py.write( 'NOME DO CONTATO' ) 
+time.sleep( 2 ) 
+py.click ( 230 ,  301 ) 
+time.sleep( 2 ) 
+assunto  =  'Entrega dos Dados do Mês de Janeiro de Fevereiro' 
+pyperclip.copy( assunto ) 
+py.hotkey( 'ctrl' ,  'v' ) 
+py.press( "enter" ) 
+time.sleep( 2 ) 
+mgn_telegram  =  f ''' 
+Prezado FULANO Boa Noite !                   
+o total de vendas foi de : R$ { total_vendas : ,.2f }
+, ea quantidade de produtos vendidos foram de : { quant_produtos }
+. 
+''' 
+pyperclip.copy( mgn_telegram ) 
+py.hotkey( 'ctrl' ,  'v' ) 
+py.press( 'entrar' )
+time.sleep( 5 )
+
+-- aqui e so usar essas funçoes separamente para utilizar o py.click e saber as coordenadas mouse devera clicar.
+time.sleep(5)
+py.position()
