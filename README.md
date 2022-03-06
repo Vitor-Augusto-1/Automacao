@@ -11,6 +11,6 @@ TIME: para dozar a velocidade do computador e não pular etapas usaremos essa bi
 PYAUTOGUI: consegue controlar o mouse e o teclado,
 então com comandos ela flutua pelo computador e consegue realiza a automação.
 
-Este foi meu primeiro projeto no GitHub espero que tenha ajudado de alguma forma.
+Este foi meu primeiro 'projeto' no GitHub, espero que tenha ajudado de alguma forma.
 
 Meu Linkedin: www.linkedin.com/in/vitor-meira-b26669197
